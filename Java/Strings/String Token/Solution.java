@@ -9,7 +9,6 @@ public class Solution {
         s=s.replaceAll("[^a-zA-Z ]", " ");      
         
         String[] strToken=s.split("\\s");
-        //String[] cleanToken=removeBlanks(strToken);
         return strToken;
     }
 
