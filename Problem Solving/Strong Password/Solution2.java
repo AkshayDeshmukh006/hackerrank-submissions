@@ -11,13 +11,6 @@ class Result2 {
      *  1. INTEGER n
      *  2. STRING password
      */
-     
-    public static int regexMatcher(String password, String pattern){
-        int count=0;
-        Pattern p=Pattern.compile(pattern);
-        Matcher m=p.matcher(password);
-        return m.find()?0:(count+1);
-    }
     
     public static int minimumNumber(int n, String password) {
     // Return the minimum number of characters to make the password strong
